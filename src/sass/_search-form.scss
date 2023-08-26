@@ -1,6 +1,6 @@
 .search-form {
   display: flex;
-  background-color: #9822a3;
+  background-color: #6977be;
   justify-content: center;
   position: sticky;
   top: 0;
@@ -9,14 +9,6 @@
   padding: 30px;
   margin-bottom: 10px;
 }
-button {
-  display: block;
-  border: none;
-  border: 2px solid #9822a3;
-  border-left: none;
-  border-radius: 0 10px 10px 0;
-  cursor: pointer;
-}
 
 input {
   height: 40px;
@@ -24,19 +16,26 @@ input {
   width: 20%;
   outline: 0px;
   border: none;
-  border: 2px solid #9822a3;
+  border: 2px solid #4e60b6;
   border-right: none;
   border-radius: 10px 0 0 10px;
 }
 
 input:focus {
-  border: 2px solid #e262fc;
+  border: 2px solid #6a9bf0;
   border-right: none;
 }
 
 input:focus ~ button {
-  border: 2px solid #e262fc;
+  border: 2px solid #6a9bf0;
   border-left: none;
 }
 
-
+button {
+  display: block;
+  border: none;
+  border: 2px solid #4e60b6;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
