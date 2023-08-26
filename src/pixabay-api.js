@@ -8,6 +8,7 @@ export default class PixabayAPI {
   query = null;
   per_page = 40;
 
+  
   async fetchImages() {
     const baseSearchParams = new URLSearchParams({
       key: this.#BASE_KEY,
