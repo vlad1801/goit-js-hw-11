@@ -1,0 +1,42 @@
+.search-form {
+  display: flex;
+  background-color: #9822a3;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  top: 0;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+button {
+  display: block;
+  border: none;
+  border: 2px solid #9822a3;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+input {
+  height: 40px;
+  padding: 10px;
+  width: 20%;
+  outline: 0px;
+  border: none;
+  border: 2px solid #9822a3;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+}
+
+input:focus {
+  border: 2px solid #e262fc;
+  border-right: none;
+}
+
+input:focus ~ button {
+  border: 2px solid #e262fc;
+  border-left: none;
+}
+
+
