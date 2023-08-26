@@ -5,7 +5,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import PixabayAPI from './pixabay-api';
 
 const pixabayInstanse = new PixabayAPI();
-
+ 
 let lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
 });
