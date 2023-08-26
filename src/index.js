@@ -75,7 +75,6 @@ function loadMore() {
       const totalPages = Math.ceil(
         pixabayInstanse.totalHits / pixabayInstanse.per_page
       );
-      //   console.log(totalPages);
       if (pixabayInstanse.page >= totalPages) {
         loadMoreBtn.classList.add('hide');
       } else {
